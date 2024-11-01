@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>تطبيق دراسي</title>
+</head>
+<body>
+        <style>
+        body {
+            background-color: #DBC2AD;
+        }
+    </style>
+    <div class="container">
+        <h1>Lectures Forum</h1>
+        <div class="icon" onclick="navigate('lecture-summary.html')">
+            <img src="a (10).png" alt="تلخيص محاضرات">
+            <span>تلخيص محاضرات</span>
+        </div>
+        <div class="icon" onclick="navigate('lectures.html')">
+            <img src="a (1).png" alt="محاضرات المنصة">
+            <span>محاضرات المنصه</span>
+        </div>
+        <div class="icon" onclick="navigate('quizzes.html')">
+            <img src="a (2).png" alt="الكويزات">
+            <span>الكويزات</span>
+        </div>
+        <div class="icon" onclick="window.open('https://sso.eetest.online/login/student', '_blank')">
+            <img src="a (11).png" alt="المنصة">
+            <span>المنصة</span>
+        </div>
+        <div class="icon" onclick="navigate('quran.html')">
+            <img src="a (17).png" alt="القرآن">
+            <span>القرآن</span>
+        </div>
+        <div class="icon" onclick="navigate('contact.html')">
+            <img src="a (21).PNG" alt="التواصل">
+            <span>التواصل</span>
+        </div>
+    </div>
+    <script>
+        function navigate(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
